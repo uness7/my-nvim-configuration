@@ -1,1 +1,1 @@
-require("waizi")
+require("config.lazy")
