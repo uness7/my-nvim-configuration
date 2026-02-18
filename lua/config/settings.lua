@@ -1,5 +1,6 @@
 local Settings = {}
 
+-- my settings
 function Settings.setup()
 	vim.opt.spell = true
 	vim.opt.spelllang = { "en_us" }
@@ -23,6 +24,8 @@ function Settings.setup()
 	vim.opt.isfname:append("@-@")
 	vim.opt.updatetime = 50
 	vim.opt.colorcolumn = "90"
+	vim.opt.ignorecase = true
+	vim.opt.smartcase = true
 end
 
 return Settings

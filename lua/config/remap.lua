@@ -40,6 +40,7 @@ function M.setup()
 	-- tabs controls
 	vim.api.nvim_set_keymap('n', '<C-Left>', ':tabprevious<CR>', { noremap = true, silent = true } )
 	vim.api.nvim_set_keymap('n', '<C-Right>', ':tabnext<CR>', { noremap = true, silent = true } )
+
 end
 return M
 
