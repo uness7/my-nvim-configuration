@@ -3,6 +3,7 @@ return {
 	config = function()
 		local util = require("lspconfig.util")
 		local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
 		-- Unify the encoding to fix the warning you had earlier
 		capabilities.offsetEncoding = { "utf-16" }
 		capabilities.textDocument.foldingRange = {
